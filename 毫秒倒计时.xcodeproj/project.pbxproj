@@ -15,6 +15,7 @@
 		81FC39F11E25DA59005E689E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FC39EF1E25DA59005E689E /* LaunchScreen.storyboard */; };
 		81FC39FC1E25DA59005E689E /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC39FB1E25DA59005E689E /* _____Tests.m */; };
 		81FC3A071E25DA59005E689E /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC3A061E25DA59005E689E /* _____UITests.m */; };
+		81FC3A161E25DAB9005E689E /* MsecCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC3A151E25DAB9005E689E /* MsecCountDownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		81FC3A021E25DA59005E689E /* 毫秒倒计时UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "毫秒倒计时UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FC3A061E25DA59005E689E /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		81FC3A081E25DA59005E689E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81FC3A141E25DAB9005E689E /* MsecCountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsecCountDownView.h; sourceTree = "<group>"; };
+		81FC3A151E25DAB9005E689E /* MsecCountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsecCountDownView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				81FC39E51E25DA59005E689E /* AppDelegate.m */,
 				81FC39E71E25DA59005E689E /* ViewController.h */,
 				81FC39E81E25DA59005E689E /* ViewController.m */,
+				81FC3A141E25DAB9005E689E /* MsecCountDownView.h */,
+				81FC3A151E25DAB9005E689E /* MsecCountDownView.m */,
 				81FC39EA1E25DA59005E689E /* Main.storyboard */,
 				81FC39ED1E25DA59005E689E /* Assets.xcassets */,
 				81FC39EF1E25DA59005E689E /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					81FC39DD1E25DA59005E689E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BVZZ9S8989;
 						ProvisioningStyle = Automatic;
 					};
 					81FC39F61E25DA59005E689E = {
@@ -275,6 +281,7 @@
 			files = (
 				81FC39E91E25DA59005E689E /* ViewController.m in Sources */,
 				81FC39E61E25DA59005E689E /* AppDelegate.m in Sources */,
+				81FC3A161E25DAB9005E689E /* MsecCountDownView.m in Sources */,
 				81FC39E31E25DA59005E689E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BVZZ9S8989;
 				INFOPLIST_FILE = "毫秒倒计时/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.-----";
@@ -435,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BVZZ9S8989;
 				INFOPLIST_FILE = "毫秒倒计时/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.-----";
